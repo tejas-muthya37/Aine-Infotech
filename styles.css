@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #6a6574;
+}
+
+.horizontal-nav {
+  width: 7%;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  box-shadow: 1px -20px 10px 10px #f2f2f2;
+}
+
+.logo-div {
+  height: 120px;
+  background-color: white;
+  border-bottom: 3px solid #f8f8f8;
+}
+
+i {
+  color: #6a6574;
+}
+
+p {
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.logo {
+  width: 90%;
+  padding-top: 30px;
+}
+
+.tabs-div {
+  padding: 20px 0 20px 0;
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.master {
+  display: flex;
+}
+
+.body {
+  width: 93%;
+}
+
+.body-upper {
+  height: 142px;
+}
+
+.body-lower {
+  background-color: #f2f2f2;
+  height: 100vh;
+  margin-top: -21px;
+  padding: 20px 30px;
+}
+
+.body-content {
+  width: 70%;
+  margin-left: 15%;
+}
+
+input {
+  border: none;
+  width: 97%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+input::placeholder {
+  color: #6a6574;
+  font-weight: bold;
+}
+
+.body-content > h4 {
+  text-align: center;
+  color: black;
+}
+
+.upload > h5 {
+  color: black;
+}
+.upload {
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  padding: 60px 0 60px 0;
+  border-radius: 3px;
+}
+
+.caret-icon {
+  margin-right: 5px;
+}
+
+/* ########### active tab styling ###########  */
+
+.active-tab {
+  background-color: #b5d0ec;
+  border-left: 3px solid #0079c4;
+  color: #00082c;
+}
